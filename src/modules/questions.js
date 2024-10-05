@@ -101,4 +101,4 @@ function Questions() {
     </div>
   );
 }
-export default Questions;
+export default Questions();
