@@ -2,12 +2,13 @@ import React from "react";
 import { Navbar, Nav, NavDropdown, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../assets/Logomark.svg";
-import profile from "../assets/_Navigation_actions.svg";
+import profile from "../assets/profile-img1.svg";
 import content from "../assets/Content.svg";
 import rightArrow from "../assets/rightArrow.svg";
 import play from "../assets/Icon.svg";
 
-function Header() {
+
+export default function Header() {
   return (
     <div>
       <div id="menu">
@@ -144,7 +145,6 @@ function Header() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Header;
