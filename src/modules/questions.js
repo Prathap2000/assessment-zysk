@@ -3,9 +3,11 @@ import wrap from "../assets/Icon_wrap.svg";
 import plus from "../assets/plus.svg";
 import avatar from "../assets/Avatar_group.svg";
 
-function Questions() {
+import React from 'react'
+
+export default function Questions() {
   return (
-    <div className="main">
+<div className="main">
       <div className="div1">
         <div id="div2">
           <h1 className="asked">Frequently Asked Questions</h1>
@@ -81,7 +83,6 @@ function Questions() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Questions;
