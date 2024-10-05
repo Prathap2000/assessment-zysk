@@ -9,7 +9,6 @@ import play from "../assets/Icon.svg";
 
 function Header() {
   return (
-    <div>
       <div id="menu">
         <Navbar bg="light" variant="light" expand="lg" className="px-5">
           <Navbar.Brand href="/" className="d-flex align-items-center">
@@ -68,9 +67,8 @@ function Header() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-      </div>
-
-      {/* <div className="main d-flex flex-column justify-content-center align-items-center">
+        
+      <div className="main d-flex flex-column justify-content-center align-items-center">
         <div
           className="d-flex align-items-center"
           style={{
@@ -142,8 +140,8 @@ function Header() {
         <div className="mt-5">
           <Image src={content} fluid alt="Content illustration" className="ms-2" />
         </div>
-      </div> */}
-      <h1> am prathap</h1>
+      </div>
+      
     </div>
   );
 }
