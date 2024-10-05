@@ -68,7 +68,8 @@ function Header() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-       <div className=" main d-flex flex-column justify-content-center align-items-center">
+        <div>
+       <div className=" main d-flex flex-column justify-content-center align-items-center mb-5">
         <div
           className="d-flex align-items-center"
           style={{
@@ -109,14 +110,14 @@ function Header() {
                   fontSize: "14px",
                   fontWeight: "normal",
                   fontFamily: "Inter",
-                }}
-              >
+                }}>
                 Check out the team dashboard <img src={rightArrow} alt="Right Arrow" />
               </span>
             </div>
           </div>
         </div>
         </div>
+        </div>
         <div>
           <p id="grow">Beautiful analytics to grow smarter</p>
           <p className="powerful">
@@ -124,7 +125,6 @@ function Header() {
             convert, engage,
             <br /> and retain more users. Trusted by over 4,000 startups.
           </p>
-
           <div className="d-flex justify-content-center align-items-center">
             <button className="me-2 d-flex align-items-center" id="demo">
               <img
@@ -137,46 +137,10 @@ function Header() {
             <button className="signup">Sign Up</button>
           </div>
         </div>
-
         <div className="mt-5">
           <Image src={content} fluid alt="Content illustration" className="ms-2" />
-        </div>
-        
-      </div>
-
-
-
-      {/* <div className="main d-flex flex-column justify-content-center align-items-center">
-
-        <div>
-          <p id="grow">Beautiful analytics to grow smarter</p>
-          <p className="powerful">
-            Powerful, self-serve product and growth analytics to help you
-            convert, engage,
-            <br /> and retain more users. Trusted by over 4,000 startups.
-          </p>
-
-          <div className="d-flex justify-content-center align-items-center">
-            <button className="me-2 d-flex align-items-center" id="demo">
-              <img
-                src={play}
-                alt="Demo"
-                style={{ width: "20px", height: "20px", marginRight: "5px" }}
-              />
-              Demo
-            </button>
-            <button className="signup">Sign Up</button>
-          </div>
-        </div>
-
-        <div className="mt-5">
-          <Image src={content} fluid alt="Content illustration" className="ms-2" />
-        </div>
-      </div> */}
-      
-
-
-      
+        </div>    
+      </div>    
     </div>
   );
 }

@@ -6,6 +6,7 @@ import avatar from "../assets/Avatar_group.svg";
 
 export default function Questions() {
   return (
+    <>
     <div className="main">
           <div className="div1">
             <div id="div2">
@@ -82,6 +83,7 @@ export default function Questions() {
             </div>
           </div>
     </div>
+    </>
   )
 }
 

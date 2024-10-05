@@ -10,7 +10,6 @@ import Questions from './questions';
 
 export default function Features() {
     return (
-        <>
             <div className='d-flex flex-column justify-content-center mt-5'>
                 <div className='text-center'>
                     <img src={featuresImage} alt="Features" className="img-fluid" />
@@ -43,8 +42,8 @@ export default function Features() {
                         <img src={learnMore} />
                     </div>
                 </div>
+                <Questions />
             </div>
-            <Questions />
-        </>
+        
     );
 }
