@@ -2,13 +2,12 @@ import React from "react";
 import { Navbar, Nav, NavDropdown, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../assets/Logomark.svg";
-import profile from "../assets/profile-img1.svg";
+import profile from "../assets/_Navigation_actions.svg";
 import content from "../assets/Content.svg";
 import rightArrow from "../assets/rightArrow.svg";
 import play from "../assets/Icon.svg";
 
-
-export default function Header() {
+function Header() {
   return (
     <div>
       <div id="menu">
@@ -71,7 +70,7 @@ export default function Header() {
         </Navbar>
       </div>
 
-      <div className="main d-flex flex-column justify-content-center align-items-center">
+      {/* <div className="main d-flex flex-column justify-content-center align-items-center">
         <div
           className="d-flex align-items-center"
           style={{
@@ -143,8 +142,10 @@ export default function Header() {
         <div className="mt-5">
           <Image src={content} fluid alt="Content illustration" className="ms-2" />
         </div>
-      </div>
+      </div> */}
+      <h1> am prathap</h1>
     </div>
-  )
+  );
 }
 
+export default Header;
