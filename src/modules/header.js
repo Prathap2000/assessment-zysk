@@ -18,17 +18,13 @@ function Header() {
               width="40"
               height="40"
               className="d-inline-block align-top me-2"
-              alt="Logo"
-            />
+              alt="Logo"/>
             <span className="d-none d-lg-inline fw-bold">Untitled UI</span>
           </Navbar.Brand>
-
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
           <Navbar.Collapse
             id="basic-navbar-nav"
-            className="justify-content-between"
-          >
+            className="justify-content-between">
             <Nav>
               <Nav.Link href="#home" className="menu-item">
                 Home
@@ -36,8 +32,7 @@ function Header() {
               <NavDropdown
                 title="Products"
                 id="products-dropdown"
-                className="menu-item"
-              >
+                className="menu-item">
                 <NavDropdown.Item href="#product">
                   List of Products
                 </NavDropdown.Item>
@@ -45,8 +40,7 @@ function Header() {
               <NavDropdown
                 title="Resources"
                 id="resources-dropdown"
-                className="menu-item"
-              >
+                className="menu-item">
                 <NavDropdown.Item href="#resource">
                   List of Resource
                 </NavDropdown.Item>
@@ -55,7 +49,6 @@ function Header() {
                 Pricing
               </Nav.Link>
             </Nav>
-
             <Nav className="ms-auto">
               <Image
                 src={profile}
@@ -63,12 +56,10 @@ function Header() {
                 width="40"
                 height="40"
                 alt="Profile"
-                className="ms-2"
-              />
+                className="ms-2"/>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <div>
        <div className=" main d-flex flex-column justify-content-center align-items-center mb-5">
         <div
           className="d-flex align-items-center"
@@ -78,8 +69,7 @@ function Header() {
             width: "24%",
             height: "32px",
             backgroundColor: "#F9F5FF",
-          }}
-        >
+          }}>
           <div className="d-flex w-100 mx-1">
             <div
               className="d-flex justify-content-center align-items-center bg-light my-2"
@@ -89,16 +79,14 @@ function Header() {
                 borderRadius: "50px",
                 width: "8rem",
                 height: "25px",
-              }}
-            >
+              }}>
               <span
                 className="mx-2 my-2 text-nowrap w-100"
                 style={{
                   fontSize: "14px",
                   fontWeight: "normal",
                   fontFamily: "Inter",
-                }}
-              >
+                }}>
                 New feature
               </span>
             </div>
@@ -113,9 +101,8 @@ function Header() {
                 }}>
                 Check out the team dashboard <img src={rightArrow} alt="Right Arrow" />
               </span>
-            </div>
+            </div>-
           </div>
-        </div>
         </div>
         </div>
         <div>
@@ -130,8 +117,7 @@ function Header() {
               <img
                 src={play}
                 alt="Demo"
-                style={{ width: "20px", height: "20px", marginRight: "5px" }}
-              />
+                style={{ width: "20px", height: "20px", marginRight: "5px" }}/>
               Demo
             </button>
             <button className="signup">Sign Up</button>
