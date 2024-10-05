@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+.display-lg-medium {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.Candice {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #101828;
+}
+
+.Product {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #475467;
+}
+
+/* features */
+
+.Cutting-edge {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  letter-spacing: -0.02em;
+  color: #101828;
+}
+
+.Powerful {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #475467;
+  padding: 0 20px;
+}
+
+.features_header {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  color: #101828;
+}
+
+.feature_para {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #475467;
+}
+
+.responsive-width {
+  width: 28%;
+}
+
+@media (max-width: 768px) {
+  .responsive-width {
+    width: 80%;
+    padding: 0 40px;
+  }
+}
+
+/* blog */
+
+.latest_blog{
+  font-family: "Inter", sans-serif;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #101828;
+}
+
+.tool {
+  font-family: "Inter", sans-serif;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #475467;
+}
+
+.view_button{
+  border-radius: 8px ;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: #7F56D9;
+  border: 1px solid #7F56D9;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;  
+
+}
+.ui{
+  width: Hug (1,216px)px;
+height: Hug (444px)px;
+gap: 32px;
+opacity: 0px;
+
+}
+.three{
+  width: Fill (384px)px;
+height: Hug (444px)px;
+gap: 24px;
+opacity: 0px;
+
+}
+
+
+/* Header Css */
+.menu-item {
+  margin-right: 40px; 
+  font-weight: bold;
+  color: gray;
+  
+}
+
+.menu-item:last-child {
+  margin-right: 0; 
+}
+
+.main{
+padding-top: 96px;
+opacity: 0px;
+
+}
+
+#grow{
+font-family: Inter;
+font-size: 60px;
+font-weight: 600;
+line-height: 72px;
+letter-spacing: -0.02em;
+text-align: center;
+}
+.powerful{
+ 
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+color: #475467;
+
+
+}
+
+ .signup{
+  width: Hug (122px)px;
+  height: Hug (60px)px;
+  padding: 16px 28px 16px 28px;
+  gap: 12px;
+  border-radius: 8px ;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: #7F56D9;
+  border: 1px solid #7F56D9;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #FFFFFF;  
+  
+ }
+
+ .get_in_touch{
+  width: Hug (122px)px;
+  height: Hug (48px)px;
+  padding: 10px 18px 10px 18px;
+  border-radius: 8px ;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: #7F56D9;
+  border: 1px solid #7F56D9;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #FFFFFF;  
+  
+ }
+
+#demo{
+  width: Hug (122px)px;
+  height: Hug (60px)px;
+  padding: 16px 28px 16px 28px;
+  gap: 12px;
+  border-radius: 8px ;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  /* background: #7F56D9; */
+  /* border: 1px solid #7F56D9; */
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  /* color: #FFFFFF; */
+
+}
