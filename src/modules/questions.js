@@ -3,7 +3,6 @@ import wrap from "../assets/Icon_wrap.svg";
 import plus from "../assets/plus.svg";
 import avatar from "../assets/Avatar_group.svg";
 
-import React from 'react'
 
 export default function Questions() {
   return (
