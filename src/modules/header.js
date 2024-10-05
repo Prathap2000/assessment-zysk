@@ -9,6 +9,7 @@ import play from "../assets/Icon.svg";
 
 function Header() {
   return (
+    <div>
       <div id="menu">
         <Navbar bg="light" variant="light" expand="lg" className="px-5">
           <Navbar.Brand href="/" className="d-flex align-items-center">
@@ -67,8 +68,36 @@ function Header() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
+        <div>
+          <p id="grow">Beautiful analytics to grow smarter</p>
+          <p className="powerful">
+            Powerful, self-serve product and growth analytics to help you
+            convert, engage,
+            <br /> and retain more users. Trusted by over 4,000 startups.
+          </p>
+
+          <div className="d-flex justify-content-center align-items-center">
+            <button className="me-2 d-flex align-items-center" id="demo">
+              <img
+                src={play}
+                alt="Demo"
+                style={{ width: "20px", height: "20px", marginRight: "5px" }}
+              />
+              Demo
+            </button>
+            <button className="signup">Sign Up</button>
+          </div>
+        </div>
+
+        <div className="mt-5">
+          <Image src={content} fluid alt="Content illustration" className="ms-2" />
+        </div>
         
-      <div className="main d-flex flex-column justify-content-center align-items-center">
+      </div>
+
+
+
+      {/* <div className="main d-flex flex-column justify-content-center align-items-center">
         <div
           className="d-flex align-items-center"
           style={{
@@ -140,7 +169,10 @@ function Header() {
         <div className="mt-5">
           <Image src={content} fluid alt="Content illustration" className="ms-2" />
         </div>
-      </div>
+      </div> */}
+      
+
+
       
     </div>
   );
