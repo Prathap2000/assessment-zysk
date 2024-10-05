@@ -105,7 +105,7 @@ function Header() {
             </div>
             <div className="d-flex justify-content-center align-items-center">
               <span
-                className="text-nowrap mx-2 "
+                className="text-nowrap mx-2"
                 style={{
                   color: "#6941C6",
                   fontSize: "14px",
@@ -113,7 +113,7 @@ function Header() {
                   fontFamily: "Inter",
                 }}
               >
-                Check out the team dashboard <img src={rightArrow} />
+                Check out the team dashboard <img src={rightArrow} alt="Right Arrow" />
               </span>
             </div>
           </div>
@@ -140,11 +140,11 @@ function Header() {
         </div>
 
         <div className="mt-5">
-          <Image src={content} fluid alt="content" className="ms-2" />
+          <Image src={content} fluid alt="Content illustration" className="ms-2" />
         </div>
       </div>
     </div>
   );
 }
 
-export default Header();
+export default Header;

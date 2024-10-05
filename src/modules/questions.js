@@ -8,97 +8,80 @@ function Questions() {
     <div className="main">
       <div className="div1">
         <div id="div2">
-          <h1 className="asked">Frequently asked questions</h1>
+          <h1 className="asked">Frequently Asked Questions</h1>
           <p id="all" className="mt-3">
             Everything you need to know about the product and billing.
           </p>
         </div>
       </div>
       <div className="d-inline-block w-50 justify-content-center">
-        <div >
-          <div className="d-flex  justify-content-between">
-            <h6>Is there a free trial available?</h6>
-            <img
-              src={wrap}
-              roundedCircle
-              width="24"
-              height="24"
-              alt="wrap"
-              
-            />
-          </div>
-
-          <p className="text-start d-flex">
-            Yes, you can try us for free for 30 days. If you want, we’ll provide
-            you with a free, personalized
-            <br /> 30-minute onboarding call to get you up and running as soon
-            as possible.
-          </p>
-          <hr />
-          <div className="d-flex  justify-content-between">
-            <h6 className="text-start"> Can I change my plan later? </h6>
-            <img
-              src={plus}
-              roundedCircle
-              width="24"
-              height="24"
-              alt="wrap"
-            />
-          </div>
-          <hr />
-          <div className="d-flex  justify-content-between">
-            <h6 className="text-start">What is your cancellation policy?</h6>
-            <img
-              src={plus}
-              roundedCircle
-              width="24"
-              height="24"
-              alt="wrap"
-            />
-          </div>
-          <hr />
-          <div className="d-flex  justify-content-between">
-            <h6 className="text-start">Can other info be added to an invoice? </h6>
-            <img
-              src={plus}
-              roundedCircle
-              width="24"
-              height="24"
-              alt="wrap"
-            />
-          </div>
-          <hr />
-          <div className="d-flex  justify-content-between">
-            <h6 className="text-start"> How does billing work?</h6>
-            <img
-              src={plus}
-              roundedCircle
-              width="24"
-              height="24"
-              alt="wrap"
-            />
-          </div>
-          <hr />
+        <div>
+          {[
+            {
+              question: "Is there a free trial available?",
+              answer:
+                "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+              icon: wrap,
+            },
+            {
+              question: "Can I change my plan later?",
+              answer: "",
+              icon: plus,
+            },
+            {
+              question: "What is your cancellation policy?",
+              answer: "",
+              icon: plus,
+            },
+            {
+              question: "Can other info be added to an invoice?",
+              answer: "",
+              icon: plus,
+            },
+            {
+              question: "How does billing work?",
+              answer: "",
+              icon: plus,
+            },
+          ].map(({ question, answer, icon }, index) => (
+            <div key={index}>
+              <div className="d-flex justify-content-between">
+                <h6 className="text-start">{question}</h6>
+                <img
+                  src={icon}
+                  width="24"
+                  height="24"
+                  alt="Icon"
+                />
+              </div>
+              {answer && (
+                <p className="text-start d-flex">
+                  {answer}
+                  <br />
+                </p>
+              )}
+              <hr />
+            </div>
+          ))}
         </div>
       </div>
-      <div id="threePhoto" className="mt-5">
+      <div id="threePhoto" className="mt-5 text-center">
         <img
           src={avatar}
-          roundedCircle
           width="120px"
           height="56px"
-          alt="wrap"
+          alt="Avatar group"
         />
-        <h4 className="justify-content-center mt-3">Still have questions?</h4>
-        <p className="" style={{ color: "#475467" }}>
-          Can’t find the answer you’re looking for? Please chat to our friendly
-          team.
+        <h4 className="mt-3">Still have questions?</h4>
+        <p style={{ color: "#475467" }}>
+          Can’t find the answer you’re looking for? Please chat to our friendly team.
         </p>
-        <div className="me-2 align-items-center mt-5 ">
+        <div className="me-2 align-items-center mt-5">
           <button className="get_in_touch">Get in touch</button>
         </div>
       </div>
     </div>
   );
 }
-export default Questions();
+
+export default Questions;
